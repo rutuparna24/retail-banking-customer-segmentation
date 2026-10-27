@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-.venv/
-.ipynb_checkpoints/
-.DS_Store
-# Raw data is downloaded by src/download_data.py (not committed)
-data/raw/*.csv
-data/raw/*.zip
-data/processed/bank.db
