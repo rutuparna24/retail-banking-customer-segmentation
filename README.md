@@ -1,4 +1,5 @@
 # Retail Banking Customer Segmentation & Cross-Sell Analysis
+![Dashboard](docs/dashboard.png)
 
 An end-to-end analytics project on a public bank telemarketing dataset: data cleaning (Python/Pandas), a SQL
 analysis layer (SQLite, 10 queries), rule-based customer segmentation, a term-deposit propensity model for
