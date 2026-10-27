@@ -16,9 +16,9 @@
 2. **Score before you call.** Use the propensity score (excludes call duration, so it is usable before dialling) to rank the list: contacting only the top 30% of customers would reach 58.8% of the actual subscribers in this data. Pilot it on a small test-and-control group before trusting it.
 3. **Build a lending cross-sell pilot from the product-gap pool.** 6,579 customers hold no loan, have no default flag and a balance of at least 1,000 euros; the largest pool is 'Mass Market Core' (4,020). This data has no loan-offer responses, so the take-up rate is unknown - the pilot should measure it.
 
-## Limits you must state
+## Limits
 
 - Observational data: patterns are associations, not proof of cause.
-- One Portuguese bank, 2008-2010, euro balances; not ICICI Bank / Indian customers.
+- One Portuguese bank, 2008-2010, euro balances; not Indian customers.
 - Only the term deposit has an observed outcome; no credit-card, insurance or investment data.
-- Segment names and thresholds are analyst assumptions (see docs/methodology.md).
+- Segment names and thresholds are analyst assumptions.
