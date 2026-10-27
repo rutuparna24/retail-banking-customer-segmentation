@@ -1,0 +1,51 @@
+conversion_rank,job,customers,conversion_rate_pct,avg_balance_eur,,,,month_num,month_abbr,quarter,customers_contacted,subscribers,conversion_rate_pct,pct_of_contact_volume,,,,conversion_rank,segment,contact_channel,customers,conversion_rate_pct
+1,Student,938,28.68,1388,,,,1,Jan,Q1,1403,142,10.12,3.1,,,,1,Senior Customers,Cellular,995,39.3
+2,Retired,2264,22.79,1984,,,,2,Feb,Q1,2649,441,16.65,5.9,,,,2,Senior Customers,Telephone,382,33.25
+3,Unemployed,1303,15.5,1522,,,,3,Mar,Q1,477,248,51.99,1.1,,,,3,Young Starters,Cellular,3075,23.64
+4,Management,9458,13.76,1764,,,,4,Apr,Q2,2932,577,19.68,6.5,,,,4,Affluent Savers,Telephone,216,20.37
+5,Admin,5171,12.2,1136,,,,5,May,Q2,13766,925,6.72,30.4,,,,5,Affluent Savers,Cellular,1786,19.71
+6,Self-employed,1579,11.84,1648,,,,6,Jun,Q2,5341,546,10.22,11.8,,,,6,Mass Market Core,Cellular,8746,17.89
+7,Unknown,288,11.81,1772,,,,7,Jul,Q3,6895,627,9.09,15.3,,,,7,Young Starters,Telephone,227,15.86
+8,Technician,7597,11.06,1253,,,,8,Aug,Q3,6247,688,11.01,13.8,,,,8,Mass Market Core,Telephone,830,13.01
+9,Services,4154,8.88,997,,,,9,Sep,Q3,579,269,46.46,1.3,,,,9,Mid-Career Borrowers,Cellular,12268,9.41
+10,Housemaid,1240,8.79,1392,,,,10,Oct,Q4,738,323,43.77,1.6,,,,10,Financially Stretched,Cellular,2415,7.41
+11,Entrepreneur,1487,8.27,1521,,,,11,Nov,Q4,3970,403,10.15,8.8,,,,11,Mid-Career Borrowers,Telephone,1114,6.37
+12,Blue-collar,9732,7.27,1079,,,,12,Dec,Q4,214,100,46.73,0.5,,,,12,Young Starters,Unknown,1236,5.18
+,,,,,,,,,,,,,,,,,,13,Senior Customers,Unknown,164,4.88
+,,,,,,,,,,,,,,,,,,14,Affluent Savers,Unknown,625,4.48
+contact_bucket,customers,subscribers,conversion_rate_pct,,product_holding,customers,pct_of_base,avg_balance_eur,term_deposit_conversion_pct,,,,history,prev_outcome,customers,subscribers,conversion_rate_pct,15,Mass Market Core,Unknown,2495,4.37
+1 contact,17544,2561,14.6,,Housing loan only,20763,45.9,1256,8.04,,,,Contacted in earlier campaign,Success,1511,978,64.73,,,,,
+2-3 contacts,18026,2019,11.2,,No loans,17204,38.1,1738,18.22,,,,Contacted in earlier campaign,Unknown,5,2,40,,,,,
+4-5 contacts,5286,456,8.63,,Both loans,4367,9.7,789,6.07,,,,Contacted in earlier campaign,Other,1840,307,16.68,,,,,
+6+ contacts,4355,253,5.81,,Personal loan only,2877,6.4,753,7.61,,,,Contacted in earlier campaign,Failure,4901,618,12.61,,,,,
+,,,,,,,,,,,,,First-time contact,Unknown,36954,3384,9.16,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+segment,customers_with_no_loans_and_balance_1000_plus,avg_balance_eur,already_hold_term_deposit,no_term_deposit_yet,,,,,,,,,segment,customers,pct_of_base,subscribers,conversion_rate_pct,avg_balance_eur,avg_age,segment_rule,,
+Mass Market Core,4020,2306,767,3253,,,,,,,,,Senior Customers,1541,3.4,526,34.13,1337,66.5,age >= 60,,
+Affluent Savers,1450,10455,300,1150,,,,,,,,,Young Starters,4538,10,827,18.22,771,26.6,age < 30,,
+Senior Customers,598,2483,227,371,,,,,,,,,Affluent Savers,2627,5.8,424,16.14,9938,43.8,"balance >= 5,000 AND no personal loan",,
+Young Starters,511,2166,188,323,,,,,,,,,Mass Market Core,12071,26.7,1782,14.76,964,42.9,everyone else,,
+,,,,,,,,,,,,,Mid-Career Borrowers,20293,44.9,1496,7.37,956,40.9,age 30-59 AND (housing loan OR personal loan),,
+,,,,,,,,,,,,,Financially Stretched,4141,9.2,234,5.65,-267,39.5,balance < 0 OR credit default = yes,,
+customers_contacted,term_deposit_subscribers,conversion_rate_pct,avg_balance_eur,avg_age,pct_with_housing_loan,pct_with_personal_loan,avg_contacts_per_customer,,,,,,,,,,,,,,,
+45211,5289,11.7,1362,40.9,55.6,16,2.76,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+age_band,balance_tier,customers,subscribers,conversion_rate_pct,sample_flag,,,,,,,,,,,,,,,,,
+18 to 29,Overdrawn,492,48,9.76,ok,,,,,,,,,,,,,,,,,
+18 to 29,Low,3479,585,16.82,ok,,,,,,,,,,,,,,,,,
+18 to 29,Medium,1092,245,22.44,ok,,,,,,,,,,,,,,,,,
+18 to 29,High,210,50,23.81,ok,,,,,,,,,,,,,,,,,
+30 to 44,Overdrawn,2164,100,4.62,ok,,,,,,,,,,,,,,,,,
+30 to 44,Low,14712,1349,9.17,ok,,,,,,,,,,,,,,,,,
+30 to 44,Medium,5996,817,13.63,ok,,,,,,,,,,,,,,,,,
+30 to 44,High,1402,190,13.55,ok,,,,,,,,,,,,,,,,,
+45 to 59,Overdrawn,1074,58,5.4,ok,,,,,,,,,,,,,,,,,
+45 to 59,Low,7775,627,8.06,ok,,,,,,,,,,,,,,,,,
+45 to 59,Medium,4001,488,12.2,ok,,,,,,,,,,,,,,,,,
+45 to 59,High,1030,132,12.82,ok,,,,,,,,,,,,,,,,,
+60 plus,Overdrawn,36,4,11.11,small sample - interpret with care,,,,,,,,,,,,,,,,,
+60 plus,Low,837,265,31.66,ok,,,,,,,,,,,,,,,,,
+60 plus,Medium,706,262,37.11,ok,,,,,,,,,,,,,,,,,
+60 plus,High,205,69,33.66,ok,,,,,,,,,,,,,,,,,
